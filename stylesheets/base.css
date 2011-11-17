@@ -92,11 +92,16 @@ h1 {
 	background: #6ac857;
 	border-left: 1px solid grey;
 	padding: 10px 10px 0px 10px;
-	font-size: 13px;
+	font-size: 12px;
+}
+
+#smallLogin a, p {
+	color: black;
+	font-size: 12px;
 }
 
 #smallLogin p {
-	color: black;	
+	text-align: center;
 }
 
 #smallLogin input {
@@ -104,16 +109,15 @@ h1 {
 }
 
 #smallLogin label {
-	font-size: 13px;
+	font-size: 12px;
 	padding: 0px 5px 0px 0px;
 }
 
 #smallLogin .button {
-  width: 43px;
+  width: 46px;
   height: 22px;
   padding: 0px 0px 2px 0px;
   margin: 0px;
-	font-weight: bold;
 }
 
 #navBar {
@@ -158,6 +162,7 @@ h1 {
 	overflow: auto;
 	line-height: 150%;
 	text-align: justify;
+	font-size: 13px;
 }
 
 .baseBody {
@@ -174,6 +179,12 @@ h1 {
 	border-top: 1px solid grey;
 	border-right: 1px solid grey;
 	border-left: 1px solid grey;#
+}
+
+#footer a {
+	float: right;
+	padding: 5px 10px 0px 0px;
+	font-weight: bold;
 }
 
 img {
