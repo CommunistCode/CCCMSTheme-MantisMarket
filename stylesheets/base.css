@@ -175,6 +175,12 @@ h1 {
 	border-left: 1px solid grey;#
 }
 
+#footer a {
+	float: right;
+	padding: 5px 10px 0px 0px;
+	font-weight: bold;
+}
+
 img {
 	border: 1px solid black;
 }
