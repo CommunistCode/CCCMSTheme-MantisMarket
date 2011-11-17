@@ -94,9 +94,13 @@ h1 {
 	font-size: 12px;
 }
 
-#smallLogin a {
+#smallLogin a, p {
 	color: black;
 	font-size: 12px;
+}
+
+#smallLogin p {
+	text-align: center;
 }
 
 #smallLogin input {
@@ -157,6 +161,7 @@ h1 {
 	overflow: auto;
 	line-height: 150%;
 	text-align: justify;
+	font-size: 13px;
 }
 
 .baseBody {
