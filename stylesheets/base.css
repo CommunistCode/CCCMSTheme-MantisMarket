@@ -1,0 +1,201 @@
+/* CSS Document */
+
+html,body {
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background : #EDEDED;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	text-align: justify;
+	line-height:150%;
+	color: #4A4A4A;
+}
+
+input, textarea {
+	border: solid 1px black;
+	padding: 4px;
+	font-size: 11px;
+}
+
+a {
+	color: black;
+	font-size: 13px;
+}
+
+h1 {
+	font-size: 25px;
+	border-bottom: solid 2px #6ac857;
+}
+
+.help {
+	margin: 0px 20px 20px 20px;
+	background: #EDEDED;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+#mainContainer {
+	position: relative;
+	width: 910px;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	margin: 0px auto -31px auto;
+	background: white;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+
+#mainContainerFaux {
+	position: relative;
+	width: 910px;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	margin: 0px auto -31px auto;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	background: url('../images/fauxBody.png') repeat-y;
+}
+
+#title {
+	background: white;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	height: 105px;
+}
+
+#titleImage {
+	float: left;
+  margin: 0px;
+	padding: 0px;
+}
+
+#titleImage img {
+  border: 0px;
+  padding: 5px 0px 0px 35px;
+}
+
+
+#smallLogin {
+	width: 190px;
+	height: 95px;
+	float:right;
+	text-align: right;
+	background: #6ac857;
+	border-left: 1px solid grey;
+	padding: 10px 10px 0px 10px;
+	font-size: 13px;
+}
+
+#smallLogin p {
+	color: black;	
+}
+
+#smallLogin input {
+	width: 100px;
+}
+
+#smallLogin label {
+	font-size: 13px;
+	padding: 0px 5px 0px 0px;
+}
+
+#smallLogin .button {
+  width: 43px;
+  height: 22px;
+  padding: 0px 0px 2px 0px;
+  margin: 0px;
+	font-weight: bold;
+}
+
+#navBar {
+	float: left;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	background: #bfa567;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	height: 30px;
+	font-size: 12px;
+}
+
+#navBar a {
+	font-size: 12px;
+}
+
+.navBarLink {
+	float: left;
+	padding: 7px 0px 0px 30px;
+	text-align: center;
+	background: #bfa567;
+	margin: 0px 0px 0px 0px;
+}
+
+.navBarLinkSelected {
+	float: left;
+	padding: 7px 0px 0px 30px;
+	text-align: center;
+	background: #bfa567;
+	margin: 0px 0px 0px 0px;
+}
+
+#body {
+	width: auto;
+	color: #4A4A4A;
+	padding: 0px;
+	clear: both;
+	font-size: 14px;
+	overflow: auto;
+	line-height: 150%;
+	text-align: justify;
+}
+
+.baseBody {
+	padding: 10px 20px 40px 20px;
+}
+
+#footer {
+	position: relative;
+	height: 30px;
+	margin: 0px auto 0px auto;
+	width: 910px;
+	background: #bfa567;
+	color: white;
+	border-top: 1px solid grey;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;#
+}
+
+img {
+	border: 1px solid black;
+}
+
+img.imageLeft {
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	display:block;
+}
+
+img.imageRight {
+	float:right;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	display:block;
+}
+
+img.imageCentre {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display:block;
+}
