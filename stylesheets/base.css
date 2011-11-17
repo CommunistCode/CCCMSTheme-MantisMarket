@@ -31,6 +31,7 @@ a {
 h1 {
 	font-size: 25px;
 	border-bottom: solid 2px #6ac857;
+	padding: 0px 0px 3px 0px;
 }
 
 .help {
