@@ -1,4 +1,4 @@
-<div id='titleImage'><img src="<?php echo($directoryPath); ?>/themes/mantismarket/images/mantismarket-title.png" alt="MantisMarket" /></div>
+<div id='titleImage'><a href='/index.php'><img src="<?php echo($directoryPath); ?>/themes/mantismarket/images/mantismarket-title.png" alt="MantisMarket" /></a></div>
 <div id='smallLogin'>
 	<?php 
 	
